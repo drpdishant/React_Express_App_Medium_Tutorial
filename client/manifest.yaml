@@ -1,0 +1,6 @@
+applications:
+- name: cors-example-frontend
+  buildpack: paketo-buildpacks/nodejs
+  env: 
+    NODE_ENV: development #Node Env
+    BP_NODE_VERSION: "12.x" #To Define Node Version Explicitly
